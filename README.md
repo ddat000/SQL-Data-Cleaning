@@ -55,13 +55,13 @@ SET full_name = UPPER(full_name);
 Blank martial status
 ```sql
 UPDATE club_member_info_cleaned 
-SET martial_status = 'N/a' 
+SET martial_status = 'N/A' 
 WHERE martial_status = '';
 ```
 Blank job title
 ```sql
 UPDATE club_member_info_cleaned 
-SET job_title = 'N/a' 
+SET job_title = 'N/A' 
 WHERE job_title = '';
 ```
 - Age out of realistic range
@@ -75,7 +75,7 @@ WHERE age >= 100;
 |ADDIE LUSH|40|married|alush0@shutterfly.com|254-389-8708|3226 Eastlawn Pass,Temple,Texas|Assistant Professor|7/31/2013|
 |ROCK CRADICK|46|married|rcradick1@newsvine.com|910-566-2007|4 Harbort Avenue,Fayetteville,North Carolina|Programmer III|5/27/2018|
 |SYDEL SHARVELL|46|divorced|ssharvell2@amazon.co.jp|702-187-8715|4 School Place,Las Vegas,Nevada|Budget/Accounting Analyst I|10/6/2017|
-|CONSTANTIN DE LA CRUZ|35|N/a|co3@bloglines.com|402-688-7162|6 Monument Crossing,Omaha,Nebraska|Desktop Support Technician|10/20/2015|
+|CONSTANTIN DE LA CRUZ|35|N/A|co3@bloglines.com|402-688-7162|6 Monument Crossing,Omaha,Nebraska|Desktop Support Technician|10/20/2015|
 |GAYLOR REDHOLE|38|married|gredhole4@japanpost.jp|917-394-6001|88 Cherokee Pass,New York City,New York|Legal Assistant|5/29/2019|
 |WANDA DEL MAR|44|single|wkunzel5@slideshare.net|937-467-6942|10864 Buhler Plaza,Hamilton,Ohio|Human Resources Assistant IV|3/24/2015|
 |JOANN KENEALY|41|married|jkenealy6@bloomberg.com|513-726-9885|733 Hagan Parkway,Cincinnati,Ohio|Accountant IV|4/17/2013|
